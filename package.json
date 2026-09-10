@@ -1,0 +1,13 @@
+{
+  "name": "agent-skills",
+  "version": "0.1.0",
+  "description": "Public-safe projections of Hearth & Code skill charters",
+  "private": false,
+  "stack": "static-html",
+  "verified": false,
+  "installed": false,
+  "local-candidate": true,
+  "release_class": "local-candidate-no-commit",
+  "public_safe": true,
+  "omitted_reference_classes": ["TCCP", "EKRP", "MINC", "Sigil", "ESS"]
+}
