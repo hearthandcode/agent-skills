@@ -10,6 +10,9 @@ metadata:
 # Rust Development
 
 ## 01. Purpose, use, and evidence
+R(§01-01) [proof-element from section 01, sentence-level atomic element]
+R(§01-02) [proof-element from section 01, sentence-level atomic element]
+R(§01-03) [proof-element from section 01, sentence-level atomic element]
 
 Use this skill for Rust implementation,
 diagnosis, review, migration, and test work.
@@ -47,6 +50,9 @@ examples, failure cases, validation, and limits.
 The reference filenames are stable routes within this package.
 
 ## 02. Source and toolchain orientation
+R(§02-01) [proof-element from section 02, sentence-level atomic element]
+R(§02-02) [proof-element from section 02, sentence-level atomic element]
+R(§02-03) [proof-element from section 02, sentence-level atomic element]
 
 Read the nearest charter, Cargo.toml,
 lockfile, affected facade, tests, and one real caller.
@@ -85,6 +91,9 @@ Route deeper practice through reference
 0001 and the Cargo documentation linked there.
 
 ## 03. Translate the request into an engineering contract
+R(§03-01) [proof-element from section 03, sentence-level atomic element]
+R(§03-02) [proof-element from section 03, sentence-level atomic element]
+R(§03-03) [proof-element from section 03, sentence-level atomic element]
 
 Write the observable behavior in terms
 of input, state, operation, and result.
@@ -121,6 +130,9 @@ boundary needs explicit recovery semantics.
 Use reference 0001 for decomposition and 0032 for completion.
 
 ## 04. Type selection and checked construction
+R(§04-01) [proof-element from section 04, sentence-level atomic element]
+R(§04-02) [proof-element from section 04, sentence-level atomic element]
+R(§04-03) [proof-element from section 04, sentence-level atomic element]
 
 Use structs for simultaneously
 meaningful facts and enums for alternatives.
@@ -157,6 +169,9 @@ Use references 0002, 0003, and 0026
 for construction and admission details.
 
 ## 05. Ownership decisions before borrow fixes
+R(§05-01) [proof-element from section 05, sentence-level atomic element]
+R(§05-02) [proof-element from section 05, sentence-level atomic element]
+R(§05-03) [proof-element from section 05, sentence-level atomic element]
 
 Identify the owner responsible for
 retaining and releasing each resource.
@@ -189,6 +204,9 @@ cancellation, and partial construction.
 Use reference 0005 for lifetime and destruction procedures.
 
 ## 06. State modeling and transitions
+R(§06-01) [proof-element from section 06, sentence-level atomic element]
+R(§06-02) [proof-element from section 06, sentence-level atomic element]
+R(§06-03) [proof-element from section 06, sentence-level atomic element]
 
 Represent different payload
 requirements with explicit enum variants.
@@ -225,6 +243,9 @@ transaction before reporting durable success.
 Use references 0003 and 0006 for the detailed design.
 
 ## 07. Traits and abstraction selection
+R(§07-01) [proof-element from section 07, sentence-level atomic element]
+R(§07-02) [proof-element from section 07, sentence-level atomic element]
+R(§07-03) [proof-element from section 07, sentence-level atomic element]
 
 Start with a concrete implementation unless
 a substitution need is already established.
@@ -260,6 +281,9 @@ distinguishable from compiler-enforced bounds.
 Use reference 0004 for GAT and dynamic-interface examples.
 
 ## 08. Fixed shape and stronger guarantees
+R(§08-01) [proof-element from section 08, sentence-level atomic element]
+R(§08-02) [proof-element from section 08, sentence-level atomic element]
+R(§08-03) [proof-element from section 08, sentence-level atomic element]
 
 Use const generics when
 compile-time shape matters to the consumer.
@@ -295,6 +319,9 @@ Use references 0007, 0008, and
 
 
 ## 09. Public API design
+R(§09-01) [proof-element from section 09, sentence-level atomic element]
+R(§09-02) [proof-element from section 09, sentence-level atomic element]
+R(§09-03) [proof-element from section 09, sentence-level atomic element]
 
 Make ownership and cost visible in
 method names, signatures, and documentation.
@@ -329,6 +356,9 @@ Use reference 0020 and the Rust
 API Guidelines for focused review.
 
 ## 10. Crate and workspace boundaries
+R(§10-01) [proof-element from section 10, sentence-level atomic element]
+R(§10-02) [proof-element from section 10, sentence-level atomic element]
+R(§10-03) [proof-element from section 10, sentence-level atomic element]
 
 Keep domain validation
 independent of UI and transport frameworks.
@@ -362,6 +392,9 @@ Use references 0019 and 0020 for
 architecture and feature policy.
 
 ## 11. Error design and diagnostic mapping
+R(§11-01) [proof-element from section 11, sentence-level atomic element]
+R(§11-02) [proof-element from section 11, sentence-level atomic element]
+R(§11-03) [proof-element from section 11, sentence-level atomic element]
 
 Classify errors according to caller recovery decisions.
 Distinguish malformed input, unsupported version, missing
@@ -390,6 +423,9 @@ wording is not part of the compatibility contract.
 Use reference 0021 for implementation and recovery details.
 
 ## 12. Serialization admission
+R(§12-01) [proof-element from section 12, sentence-level atomic element]
+R(§12-02) [proof-element from section 12, sentence-level atomic element]
+R(§12-03) [proof-element from section 12, sentence-level atomic element]
 
 Decode into a raw DTO before
 constructing a trusted domain value.
@@ -421,6 +457,9 @@ Use reference 0026 for detailed
 admission and migration procedures.
 
 ## 13. Persistence and migration
+R(§13-01) [proof-element from section 13, sentence-level atomic element]
+R(§13-02) [proof-element from section 13, sentence-level atomic element]
+R(§13-03) [proof-element from section 13, sentence-level atomic element]
 
 Identify the transaction that owns the durable change.
 Check expected revision when concurrent updates can race.
@@ -451,6 +490,9 @@ Return the migration's actual
 tested range of historical versions.
 
 ## 14. Async and task ownership
+R(§14-01) [proof-element from section 14, sentence-level atomic element]
+R(§14-02) [proof-element from section 14, sentence-level atomic element]
+R(§14-03) [proof-element from section 14, sentence-level atomic element]
 
 Name the component that starts,
 observes, and completes each task.
@@ -479,6 +521,9 @@ actual locked runtime's documentation.
 Test overload, task failure, late reply, and shutdown races.
 
 ## 15. Concurrency and shared state
+R(§15-01) [proof-element from section 15, sentence-level atomic element]
+R(§15-02) [proof-element from section 15, sentence-level atomic element]
+R(§15-03) [proof-element from section 15, sentence-level atomic element]
 
 Choose shared mutation only when ownership cannot remain local.
 Arc shares ownership but requires
@@ -508,6 +553,9 @@ introducing more complex synchronization.
 Use references 0023 and 0028 for lifecycle and recovery.
 
 ## 16. Performance decisions
+R(§16-01) [proof-element from section 16, sentence-level atomic element]
+R(§16-02) [proof-element from section 16, sentence-level atomic element]
+R(§16-03) [proof-element from section 16, sentence-level atomic element]
 
 Begin with a user-visible budget
 rather than an optimization technique.
@@ -536,6 +584,9 @@ Run semantic tests around every optimized path.
 
 
 ## 17. Unsafe and FFI review
+R(§17-01) [proof-element from section 17, sentence-level atomic element]
+R(§17-02) [proof-element from section 17, sentence-level atomic element]
+R(§17-03) [proof-element from section 17, sentence-level atomic element]
 
 Prefer safe code when it satisfies the measured requirement.
 Name every invariant the compiler cannot verify.
@@ -565,6 +616,9 @@ invariant, tests, and removal condition.
 Use reference 0025 before modifying the trusted boundary.
 
 ## 18. Procedural macros
+R(§18-01) [proof-element from section 18, sentence-level atomic element]
+R(§18-02) [proof-element from section 18, sentence-level atomic element]
+R(§18-03) [proof-element from section 18, sentence-level atomic element]
 
 Demonstrate the repeated
 handwritten Rust before introducing a macro.
@@ -590,6 +644,9 @@ strengthen rustc's underlying type theory.
 Use reference 0009 for architecture and failure fixtures.
 
 ## 19. Declarative macros
+R(§19-01) [proof-element from section 19, sentence-level atomic element]
+R(§19-02) [proof-element from section 19, sentence-level atomic element]
+R(§19-03) [proof-element from section 19, sentence-level atomic element]
 
 Choose a macro only where syntactic repetition requires one.
 Use deliberate fragment specifiers and unambiguous separators.
@@ -615,6 +672,9 @@ Do not describe hygienic expansion
 as proof of algorithm correctness.
 
 ## 21. Proof and formal-language boundaries
+R(§21-01) [proof-element from section 21, sentence-level atomic element]
+R(§21-02) [proof-element from section 21, sentence-level atomic element]
+R(§21-03) [proof-element from section 21, sentence-level atomic element]
 
 Name the obligation before selecting a formal technique.
 Rust newtypes can prevent identifier interchange.
@@ -646,6 +706,9 @@ detailed comparison and certificate design.
 Record all remaining assumptions in the result.
 
 ## 24. Application adapters and deterministic core
+R(§24-01) [proof-element from section 24, sentence-level atomic element]
+R(§24-02) [proof-element from section 24, sentence-level atomic element]
+R(§24-03) [proof-element from section 24, sentence-level atomic element]
 
 Keep rendering and input translation outside domain rules.
 Represent commands explicitly and
@@ -671,6 +734,9 @@ State which platform behavior was actually exercised.
 
 
 ## 25. Test selection by claim
+R(§25-01) [proof-element from section 25, sentence-level atomic element]
+R(§25-02) [proof-element from section 25, sentence-level atomic element]
+R(§25-03) [proof-element from section 25, sentence-level atomic element]
 
 Choose the test layer from the failure mechanism.
 Use unit tests for pure decisions.
@@ -697,6 +763,9 @@ Stop expanding tests when the relevant
 uncertainty is resolved and required checks pass.
 
 ## 26. Compiler feedback loop
+R(§26-01) [proof-element from section 26, sentence-level atomic element]
+R(§26-02) [proof-element from section 26, sentence-level atomic element]
+R(§26-03) [proof-element from section 26, sentence-level atomic element]
 
 Run the narrow check before broad repository commands.
 Read the first causal error and the source it identifies.
@@ -721,6 +790,9 @@ A compiler pass must be followed by
 behavioral evidence for a behavioral claim.
 
 ## 27. Reproducible command patterns
+R(§27-01) [proof-element from section 27, sentence-level atomic element]
+R(§27-02) [proof-element from section 27, sentence-level atomic element]
+R(§27-03) [proof-element from section 27, sentence-level atomic element]
 
 Substitute the actual package name and
 supported features in these patterns.
@@ -762,6 +834,9 @@ Record whether a command was a syntax check,
 compilation, execution, or packaging operation.
 
 ## 28. Security and dependency checks
+R(§28-01) [proof-element from section 28, sentence-level atomic element]
+R(§28-02) [proof-element from section 28, sentence-level atomic element]
+R(§28-03) [proof-element from section 28, sentence-level atomic element]
 
 Identify attacker-controlled input
 and the resources it can influence.
@@ -790,6 +865,9 @@ Scope any additional security work to
 the actual task and threat boundary.
 
 ## 29. Observability and recovery evidence
+R(§29-01) [proof-element from section 29, sentence-level atomic element]
+R(§29-02) [proof-element from section 29, sentence-level atomic element]
+R(§29-03) [proof-element from section 29, sentence-level atomic element]
 
 Record request and attempt identity before consequential work.
 Keep source-event time distinct from observation time.
@@ -814,6 +892,9 @@ A useful receipt supports reconstruction without
 requiring unrestricted access to private material.
 
 ## 30. Review and refactoring
+R(§30-01) [proof-element from section 30, sentence-level atomic element]
+R(§30-02) [proof-element from section 30, sentence-level atomic element]
+R(§30-03) [proof-element from section 30, sentence-level atomic element]
 
 Read the intended behavior before evaluating the diff.
 Trace validation, state change, persistence, and output.
@@ -838,6 +919,9 @@ Use reference 0030 for review quality and maintenance tradeoffs.
 A bounded review cannot prove the absence of every defect.
 
 ## 31. Package resources and practical use
+R(§31-01) [proof-element from section 31, sentence-level atomic element]
+R(§31-02) [proof-element from section 31, sentence-level atomic element]
+R(§31-03) [proof-element from section 31, sentence-level atomic element]
 
 The references directory contains
 27 public-safe focused supporting notes (governance-framework references omitted per the project release).
@@ -900,6 +984,9 @@ separate human verification seal intact.
 - [Rust application delivery checklists](references/0032-rust-application-delivery-checklists.md)
 
 ## 32. Completion and calibrated claims
+R(§32-01) [proof-element from section 32, sentence-level atomic element]
+R(§32-02) [proof-element from section 32, sentence-level atomic element]
+R(§32-03) [proof-element from section 32, sentence-level atomic element]
 
 Lead the return with the behavior or artifact delivered.
 List the relevant changed paths through usable links.
